@@ -41,7 +41,7 @@ dependencies {
 	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.11.5'
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
-
+	implementation 'commons-io:commons-io:2.11.0'
 }
 
 tasks.named('test') {
