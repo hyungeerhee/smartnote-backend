@@ -1,6 +1,6 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.dto;
 
-import com.smartnote.backend.Note;
+import com.smartnote.backend.note.domain.Note;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

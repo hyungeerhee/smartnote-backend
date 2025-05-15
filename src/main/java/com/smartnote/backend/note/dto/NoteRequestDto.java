@@ -1,4 +1,4 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.dto;
 
 import lombok.Getter;
 

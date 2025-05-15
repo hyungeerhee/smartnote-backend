@@ -1,5 +1,6 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.domain;
 
+import com.smartnote.backend.user.domain.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

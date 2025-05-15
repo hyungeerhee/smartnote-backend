@@ -1,5 +1,6 @@
-package com.smartnote.backend;
+package com.smartnote.backend.user.repository;
 
+import com.smartnote.backend.user.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

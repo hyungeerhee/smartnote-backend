@@ -1,5 +1,6 @@
-package com.smartnote.backend;
+package com.smartnote.backend.config;
 
+import com.smartnote.backend.auth.security.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

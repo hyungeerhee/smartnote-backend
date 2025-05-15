@@ -1,5 +1,9 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.controller;
 
+import com.smartnote.backend.note.service.NoteService;
+import com.smartnote.backend.note.dto.NoteRequestDto;
+import com.smartnote.backend.note.dto.NoteResponseDto;
+import com.smartnote.backend.user.domain.User;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;

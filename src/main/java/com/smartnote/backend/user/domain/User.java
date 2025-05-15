@@ -1,4 +1,4 @@
-package com.smartnote.backend;
+package com.smartnote.backend.user.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

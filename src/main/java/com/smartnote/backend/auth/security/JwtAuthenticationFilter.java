@@ -1,5 +1,7 @@
-package com.smartnote.backend;
+package com.smartnote.backend.auth.security;
 
+import com.smartnote.backend.user.domain.User;
+import com.smartnote.backend.user.repository.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

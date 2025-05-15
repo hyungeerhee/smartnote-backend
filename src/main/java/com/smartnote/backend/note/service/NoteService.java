@@ -1,10 +1,10 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.service;
 
-import com.smartnote.backend.Note;
-import com.smartnote.backend.User;
-import com.smartnote.backend.NoteRequestDto;
-import com.smartnote.backend.NoteResponseDto;
-import com.smartnote.backend.NoteRepository;
+import com.smartnote.backend.note.domain.Note;
+import com.smartnote.backend.note.dto.NoteRequestDto;
+import com.smartnote.backend.note.dto.NoteResponseDto;
+import com.smartnote.backend.note.repository.NoteRepository;
+import com.smartnote.backend.user.domain.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

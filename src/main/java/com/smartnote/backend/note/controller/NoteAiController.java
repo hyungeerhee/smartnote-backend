@@ -1,5 +1,9 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.controller;
 
+import com.smartnote.backend.note.service.NoteService;
+import com.smartnote.backend.note.domain.Note;
+import com.smartnote.backend.user.domain.User;
+import com.smartnote.backend.openai.service.OpenAiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

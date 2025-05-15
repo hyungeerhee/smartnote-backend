@@ -1,7 +1,7 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.repository;
 
-import com.smartnote.backend.Note;
-import com.smartnote.backend.User;
+import com.smartnote.backend.note.domain.Note;
+import com.smartnote.backend.user.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

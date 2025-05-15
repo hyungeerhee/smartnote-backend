@@ -1,5 +1,10 @@
-package com.smartnote.backend;
+package com.smartnote.backend.user.service;
 
+import com.smartnote.backend.auth.dto.SignupRequestDto;
+import com.smartnote.backend.auth.security.JwtUtil;
+import com.smartnote.backend.auth.dto.LoginRequestDto;
+import com.smartnote.backend.user.domain.User;
+import com.smartnote.backend.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

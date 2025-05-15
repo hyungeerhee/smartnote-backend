@@ -1,4 +1,4 @@
-package com.smartnote.backend;
+package com.smartnote.backend.openai.config;
 
 import lombok.Getter;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,5 +1,9 @@
-package com.smartnote.backend;
+package com.smartnote.backend.user.controller;
 
+import com.smartnote.backend.auth.dto.SignupRequestDto;
+import com.smartnote.backend.auth.dto.LoginRequestDto;
+import com.smartnote.backend.user.domain.User;
+import com.smartnote.backend.user.service.UserService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

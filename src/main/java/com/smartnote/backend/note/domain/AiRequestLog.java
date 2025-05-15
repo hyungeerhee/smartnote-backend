@@ -1,4 +1,4 @@
-package com.smartnote.backend;
+package com.smartnote.backend.note.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;

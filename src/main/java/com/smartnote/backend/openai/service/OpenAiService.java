@@ -1,5 +1,6 @@
-package com.smartnote.backend;
+package com.smartnote.backend.openai.service;
 
+import com.smartnote.backend.openai.config.OpenAiConfig;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
